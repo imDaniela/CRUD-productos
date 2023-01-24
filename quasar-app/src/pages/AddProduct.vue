@@ -292,11 +292,11 @@ export default {
             this.GetVariacionesByProductoId(this.$route.query.id);
           }
       });
-    },
+    }, 
 
     //Agregar una fila a la tabla de variaciones ya que un producto puede tener mas de una variacion
     AddFila(){
-      his.edit = false;
+      this.edit = false;
       this.variaciones.push(this.fila);
       console.log(this.variaciones)
       this.closeModal();

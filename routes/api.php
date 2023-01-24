@@ -22,7 +22,6 @@ Route::get('/delete_producto/{id}', 'App\Http\Controllers\ProductosController@De
 
 Route::get('/variaciones', 'App\Http\Controllers\ProductosController@GetVariaciones');
 Route::get('/variaciones/{id}', 'App\Http\Controllers\ProductosController@GetVariacionesByProductoId');
-Route::post('/save_producto', 'App\Http\Controllers\ProductosController@SaveProducto');
 Route::get('/delete_variacion/{id}', 'App\Http\Controllers\ProductosController@DeleteVariacion');
 
 

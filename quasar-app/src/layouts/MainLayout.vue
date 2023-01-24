@@ -53,7 +53,7 @@ const linksData = [
     title: 'Productos',
     caption: 'Lista de productos',
     icon: 'list',
-    link: '#'
+    link: '#/'
   },
   {
     title: 'Variaciones',
